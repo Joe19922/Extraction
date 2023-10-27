@@ -10,6 +10,8 @@ Das fertige Programm ist eine .exe-Datei. Hierfür habe ich PyAutoGui verwendet,
 
 Das Lesen der Stundenzettel kann in Python aufgrund der Vielzahl der Einträge in der Woche (bei 52-53 Wochen im Jahr und 15 Mitarbeitern) mehrere Minuten dauern. Deshalb habe ich Print-Befehle eingefügt(old-version), um die Geschwindigkeit der Verarbeitung zu überprüfen und so die Leistung zu optimieren. Letztendlich verwendete ich ein Jupyter-Notebook, da es mir ermöglicht, jede einzelne Zelle zu isolieren.
 
+Ich finde die Dot-Notation sehr angenehm und habe daher die Klasse 'AttrDict' verwendet, obwohl sie sonst keinen besonderen Sinn ergibt.
+
 # Bilder
 Hauptfenster, mit blockierten Knöpfen, da die jeweiligen Ordner & Dateien fehlen.
 
