@@ -84,7 +84,7 @@ class App(customtkinter.CTk):
 
     def Load_Frames(self):
 
-        # create sidebar frame with widgets
+    
         self.sidebar_frame = customtkinter.CTkFrame(self, width=240, corner_radius=0)
         self.sidebar_frame.grid(row=0, column=0, rowspan=5, sticky="nsew")
         self.sidebar_frame.grid_rowconfigure(5, weight=1)
@@ -110,11 +110,10 @@ class App(customtkinter.CTk):
                                              text="Start", fg_color="grey", state="disabled")
         self.Start.grid(row=5, column=0, padx=0, pady=(0, 20))
 
-        # create scrollable label and button frame
+
         self.scrollable_label_button_frame = ScrollableLabelButtonFrame(master=self, width=400, corner_radius=10)
         self.scrollable_label_button_frame.grid(row=0, column=1, padx=(20, 0), pady=(20, 0), sticky="nsew")
 
-        # create slider and progressbar frame
         self.slider_progressbar_frame = customtkinter.CTkFrame(self, fg_color="transparent")
         self.slider_progressbar_frame.grid(row=2, column=1, padx=(0, 0), pady=(0, 0), sticky="nsew")
         self.slider_progressbar_frame.grid_columnconfigure(0, weight=1)
