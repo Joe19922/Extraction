@@ -1,8 +1,19 @@
-﻿# Extraction
+# Info
 
+Die Idee entstand aus der Notwendigkeit, viele Excel-Dateien mit zahlreichen Tabellen zu lesen und in einer Zieldatei zu speichern. 
+Ich entschied mich für Python, da ich bereits Erfahrung mit dieser Sprache hatte und sie mir gefällt.
+
+
+# Zum Programm selbst:
+
+Das fertige Programm ist eine .exe-Datei. Hierfür habe ich PyAutoGui verwendet, da es mir ermöglicht, besser zu steuern, welche Module in die .exe-Datei konvertiert werden und welche nicht. Die vorherige Version war als .py-Datei gedacht, ich entschied mich jedoch für die .exe-Version, da sie im Allgemeinen flexibler ist. Zur Bearbeitung der xlsx-Dateien wählte ich openpyxl, da es sich als die schnellste Bibliothek für diese Aufgabe herausstellte.
+
+Das Lesen der Stundenzettel kann in Python aufgrund der Vielzahl der Einträge in der Woche (bei 52-53 Wochen im Jahr und 15 Mitarbeitern) mehrere Minuten dauern. Deshalb habe ich Print-Befehle eingefügt(old-version), um die Geschwindigkeit der Verarbeitung zu überprüfen und so die Leistung zu optimieren. Letztendlich verwendete ich ein Jupyter-Notebook, da es mir ermöglicht, jede einzelne Zelle zu isolieren.
+
+# Bilder
 Hauptfenster, mit blockierten Knöpfen, da die jeweiligen Ordner & Dateien fehlen.
 
-![programm_main](https://github.com/Joe19922/Extraction/assets/132180983/7a0c8bc7-ef6b-46a3-9983-27ccd7804c00)
+![programm_main](https://github.com/Joe19922/Extraction/assets/132180983/7a0c8bc7-ef6b-46a3-9983-27ccd7804c00)is
 
 Infofenster
 
