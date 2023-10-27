@@ -33,8 +33,6 @@ EXTRACTED_FILE = config.file_path
 
 #  Funktionen
 
-
-## Start functon of Overview
 def getListOfOverviewIDs(sheet):
     header_row = list(sheet.iter_rows(min_row=1, max_row=1, values_only=True))[0]
     result = []
