@@ -1,7 +1,7 @@
 # Info
 Mein Vorgesetzter erhielt die Aufgabe, viele Stundenzettel in Form von Excel-Dateien mit zahlreichen Tabellen zu lesen und in einer Zieldatei zu speichern. Ursprünglich überließ er es den Mitarbeitern, dies selbst zu erledigen. Infolgedessen bot ich an, die Aufgabe mithilfe eines Skripts schneller zu bewältigen. Ich entschied mich für Python, da ich bereits Erfahrung mit dieser Sprache hatte und sie mir gefällt.
 <br>
-<br>Nach vielen schlaflosen Nächten und trotz meiner regulären Arbeit war das Programm eine Woche später fertig.
+<br>Nach vielen schlaflosen Nächten und trotz meiner regulären Arbeit war das Programm endlich fertig.
 
 
 # Zum Programm selbst:
